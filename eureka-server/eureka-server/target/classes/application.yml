@@ -1,0 +1,12 @@
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    initialInstanceInfoReplicationIntervalSeconds: 30
+server:
+  port: 8761
+  
+spring:
+  application:
+    name: AMAZON-SERVER  
+  
